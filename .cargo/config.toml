@@ -1,0 +1,3 @@
+[env]
+# The app needs macOS 13 (SMAppService); also what LSMinimumSystemVersion says
+MACOSX_DEPLOYMENT_TARGET = { value = "13.0", force = false }

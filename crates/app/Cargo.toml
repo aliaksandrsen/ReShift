@@ -1,0 +1,26 @@
+[package]
+name = "reshift"
+description = "ReShift for macOS - converts text typed in the wrong keyboard layout"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "ReShift"
+path = "src/main.rs"
+
+[dependencies]
+reshift-core = { path = "../core" }
+objc2 = "0.6"
+objc2-foundation = { version = "0.3", default-features = false, features = ["std", "NSObject", "NSString", "NSGeometry", "NSValue", "NSArray", "NSDictionary", "NSNotification", "NSUserDefaults", "NSLocale", "NSAttributedString", "NSError", "NSBundle", "NSEnumerator", "NSTimer", "NSDate", "NSRunLoop", "NSThread", "NSData", "NSURL", "NSDistributedNotificationCenter", "NSObjCRuntime"] }
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "objc2-core-foundation", "NSApplication", "NSResponder", "NSStatusBar", "NSStatusItem", "NSStatusBarButton", "NSButton", "NSControl", "NSView", "NSMenu", "NSMenuItem", "NSImage", "NSRunningApplication", "NSWindow", "NSWorkspace", "NSPasteboard", "NSPasteboardItem", "NSSound", "NSTabView", "NSTabViewItem", "NSPopUpButton", "NSBox", "NSTextField", "NSStackView", "NSLayoutConstraint", "NSColor", "NSFont", "NSCell", "NSButtonCell", "NSUserInterfaceLayout", "NSEvent", "NSScrollView", "NSGraphics", "block2", "NSImageView", "NSText", "NSTextInputContext", "NSAttributedString"] }
+objc2-core-foundation = { version = "0.3", default-features = false, features = ["std", "alloc", "CFArray", "CFBase", "CFData", "CFDictionary", "CFNumber", "CFString"] }
+objc2-core-graphics = { version = "0.3", default-features = false, features = ["std", "CGEvent", "CGEventSource", "CGEventTypes", "CGRemoteOperation"] }
+dispatch2 = { version = "0.3", default-features = false, features = ["std"] }
+block2 = "0.6"
+objc2-service-management = { version = "0.3", default-features = false, features = ["std", "SMAppService", "objc2", "objc2-foundation"] }
+
+[lints]
+workspace = true
