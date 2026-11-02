@@ -59,7 +59,7 @@ The signed application bundle is generated in `artifacts/ReShift.app`.
 ReShift is inspired by the ideas, heritage, and pioneers of keyboard layout switching:
 
 - [Punto Switcher](https://yandex.ru/soft/punto/) — the pioneering keyboard layout switcher.
-- [Caramba Switcher](https://carambaswitcher.com/) — intelligent, silent background layout switching.
+- [Caramba Switcher](https://caramba-switcher.com/) — intelligent, silent background layout switching.
 - [langSwitcher](https://github.com/reg2005/langSwitcher) — open-source macOS Swift keyboard layout converter by @reg2005.
 
 > ⚠️ **Note**: ReShift is under active development (v0.1.0) — features, UI, and shortcuts are actively evolving. Feedback and suggestions are welcome!

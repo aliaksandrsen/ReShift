@@ -59,7 +59,7 @@ cargo test --workspace
 ReShift вдохновлен идеями и разработками в области автоматического переключения раскладки:
 
 - [Punto Switcher](https://yandex.ru/soft/punto/) — легендарный первопроходец автоматического переключения раскладки.
-- [Caramba Switcher](https://carambaswitcher.com/) — умное и тихое фоновое переключение раскладки.
+- [Caramba Switcher](https://caramba-switcher.com/) — умное и тихое фоновое переключение раскладки.
 - [langSwitcher](https://github.com/reg2005/langSwitcher) — открытый конвертер раскладки для macOS на Swift от @reg2005.
 
 > ⚠️ **Примечание**: ReShift находится в активной разработке (v0.1.0) — функции, интерфейс и настройки могут меняться. Будем рады вашим отзывам и предложениям!
